@@ -200,7 +200,7 @@ if __name__ == "__main__":
     input_df['tenure']=normalised1[:,0]
     input_df['MonthlyCharges']=normalised1[:,1]
     input_df['TotalCharges']=normalised1[:,2]
-    #st.write(input_df)
+    st.write(input_df)
 
     if st.button("Predict"):
         if model.predict(input_df)==1:
