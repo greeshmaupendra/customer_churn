@@ -3,10 +3,13 @@
 
 ## Model will be expected to output a Churn Probability for every data under test.
 
-The input data is spread over 3 separate files - churn_data.csv, cust_data.csv and internet_data.csv.
+### The input data is spread over 3 separate files - churn_data.csv, cust_data.csv and internet_data.csv.
 
-The Data includes the following:
+### The Data includes the following:
+
   • Personal Data (gender, children, whether senior citizen, dependents...)
+  
   • Services Related (Tenure with the provider, payment method, internet packs purchased, special
   offers...)
+  
   • Charges being incurred (Amount of recharge done per month...)
