@@ -190,7 +190,7 @@ if __name__ == "__main__":
        'InternetService':internet1, 'OnlineSecurity':online_sec1, 'OnlineBackup':backup1, 'DeviceProtection':protection1,
        'TechSupport':techsupport1, 'StreamingTV':streamingTV1, 'StreamingMovies':streamingMovie1}
 
-    new_row = pd.DataFrame(data)
+    new_row = pd.DataFrame([data])
 
     input_df = pd.concat([input_df, new_row], ignore_index=True)
 
